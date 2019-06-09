@@ -8,12 +8,12 @@
 #include "android_log.h"
 
 void Point::setCity(std::string city) {
-    LOGI("call %s", __FUNCTION__);
+    LOGI("call %s line :%d ", __FUNCTION__,__LINE__);
     this->city = city;
 
 }
 
 std::string Point::getCity(){
-    LOGI("call %s", __FUNCTION__);
+    LOGI("call %s line :%d ", __FUNCTION__,__LINE__);
     return this->city;
 }

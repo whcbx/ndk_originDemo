@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.4.1)
 
 include_directories(${CMAKE_SOURCE_DIR}/../CPP)
 
-add_library(native-lib SHARED NDKLib.cpp Point.cpp)
+add_library(native-lib SHARED ../JNI/NDKLib.cpp Point.cpp)
 
 find_library( # Sets the name of the path variable.
         log-lib
