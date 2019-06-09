@@ -12,7 +12,7 @@ extern "C" {
  * Method:    addNum
  * Signature: (II)I
  */
-JNIEXPORT jint JNICALL Java_com_hryt_iov_speech_emptyproaddndk_JNITools_addNum
+JNIEXPORT jstring JNICALL Java_com_hryt_iov_speech_emptyproaddndk_JNITools_addNum
   (JNIEnv *, jobject, jint, jint);
 
 #ifdef __cplusplus

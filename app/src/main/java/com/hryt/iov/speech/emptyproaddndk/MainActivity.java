@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 //        Toast.makeText(getApplicationContext(),"sdfsdf "+num,Toast.LENGTH_SHORT).show();
         // Example of a call to a native method
         TextView tv = findViewById(R.id.displayNativeString);
+        System.out.println("settext----------------");
         tv.setText(JNITools.addNum(12,13) + "" );
     }
 
